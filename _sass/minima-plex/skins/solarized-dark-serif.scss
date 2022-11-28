@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+// Override font to use IBM Plex Serif and serif font style
+$base-font-family: "IBM Plex Serif", serif !default;
+
+$sol-is-auto: false;
+$sol-is-dark: true;
+@import "minima-plex/skins/solarized";
