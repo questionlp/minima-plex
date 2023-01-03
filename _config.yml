@@ -36,6 +36,7 @@ minima-plex:
     - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
     - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
     - { platform: rss,            user_url: "/feed.xml"}
+    - { platform: donate,         user_url: "https://opencollective.com/jekyll"}
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
