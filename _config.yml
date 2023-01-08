@@ -6,11 +6,15 @@ description: > # this means to ignore newlines until "show_excerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+baseurl: "minima-plex"
 
 show_excerpts: false # set to true to show excerpts on the homepage
+excerpt_separator: <!--more-->
+
 favicon: "/assets/images/favicon.png"
 favicon_svg: "/assets/images/favicon.svg"
 apple_touch_icon: "/assets/images/apple-touch-icon.png"
+permalink: pretty
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -38,7 +42,6 @@ minima-plex:
     - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
     - { platform: rss,            user_url: "/feed.xml" }
     - { platform: donate,         user_url: "https://opencollective.com/jekyll" }
-    - { platform: signal,         user_url: "https://signal.org" }
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
@@ -46,6 +49,8 @@ minima-plex:
 # - about.md
 
 # Build settings
+# Use `theme` if you want to install the theme directly or `remote_theme`
+# to pull the theme from GitHub as part of the build process
 remote_theme: questionlp/minima-plex
 
 plugins:
