@@ -46,7 +46,7 @@ minima-plex:
 # - about.md
 
 # Build settings
-theme: minima-plex
+remote_theme: questionlp/minima-plex
 
 plugins:
  - jekyll-feed
