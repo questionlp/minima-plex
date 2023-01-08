@@ -22,6 +22,26 @@ bundle
 
 minima-plex is a fork of the Minima theme at version 2.5.1 that changes the default font families to use the IBM Plex family of fonts. Please refer to the Minima theme's [README.md](https://github.com/jekyll/minima/blob/v2.5.1/README.md) for an overview of the features and configuration of the theme.
 
+minima-plex also adds category and tag pages and a listing of tags at the end of each post. After adding the theme to your Jekyll site, you will need to create the `category` and `tag` directories at the root of your site directory and copy over the `index.html` file from both directories in the theme to the corresponding directories created within your site directory.
+
+Each category and tag that you use in your pages/posts will need corresponding Markdown files named after the category or tag. For individual category Markdown files, use the following template:
+
+```
+---
+layout: category-page
+category: styles
+---
+```
+
+For individual tag Markdown files, use the following template:
+
+```
+---
+layout: tag-page
+tag: styles
+---
+```
+
 Do note that any references to `minima` in any configuration files will need to be replaced with `minima-plex`.
 
 The rest of this document covers features modified for this theme.
