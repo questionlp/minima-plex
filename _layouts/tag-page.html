@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{%- assign date_format = site.minima-plex.date_format | default: "%d %b %Y" -%}
+
+<div class="post">
+  <h1>Tag: {{ page.tag }}</h1>
+  <ul>
+    {% for post in site.tags[page.tag] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: date_format }})<br>
+        {{ post.description }}
+      </li>
+    {% endfor %}
+  </ul>
+</div>

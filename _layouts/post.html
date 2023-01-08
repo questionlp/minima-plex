@@ -23,12 +23,25 @@ layout: default
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
+      {%- endif -%}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {% if page.tags and page.tags.size != 0 %}
+  <div class="post-tags">
+    Tags:
+    <span>
+    {% for tag in page.tags %}
+      {% capture tag_name %}{{ tag }}{% endcapture %}
+      <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
+    {% endfor %}
+    </span>
+  </div>
+  {% endif %}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

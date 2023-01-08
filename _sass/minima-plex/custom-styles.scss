@@ -9,3 +9,9 @@ ul.post-list h5,
 ul.post-list h6 {
   font-weight: $base-font-weight;
 }
+
+div.post-tags {
+  border-top: 1px solid $border-color-01;
+  font-size: 95%;
+  padding: 1.5rem 0 0;
+}
