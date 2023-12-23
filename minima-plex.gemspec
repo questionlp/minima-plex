@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name     = "minima-plex"
-  spec.version  = "0.3.1"
+  spec.version  = "0.3.2"
   spec.authors  = ["Linh Pham", "Joel Glovier"]
   spec.email    = ["dev@wwdt.me", "jglovier@github.com"]
 
