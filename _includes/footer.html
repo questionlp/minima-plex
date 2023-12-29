@@ -25,6 +25,12 @@
       {%- include social.html -%}
     </div>
 
+    {%- if site.copyright %}
+    <div class="copyright">
+      <p>{{ site.copyright | markdownify }}</p>
+    </div>
+    {%- endif %}
+
   </div>
 
 </footer>
