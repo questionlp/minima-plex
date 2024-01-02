@@ -43,6 +43,7 @@ minima-plex:
     - { platform: rss,            user_url: "/feed.xml" }
     - { platform: donate,         user_url: "https://opencollective.com/jekyll" }
     - { platform: bluesky,        user_url: "https://bsky.app/profile/bsky.app"}
+    - { platform: patreon,        user_url: "https://patreon.com"}
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up

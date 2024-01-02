@@ -1,6 +1,6 @@
 # minima-plex
 
-minima-plex is a fork of the the Jekyll theme, [Minima](https://github.com/jekyll/minima).
+minima-plex is a fork of the the Jekyll theme, [Minima](https://github.com/jekyll/minima) (originally developed by Parker Moore and the minima contributors).
 
 ![minima-plex Theme Preview](/screenshot.png)
 
