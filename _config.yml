@@ -16,6 +16,9 @@ favicon_svg: "/assets/images/favicon.svg"
 apple_touch_icon: "/assets/images/apple-touch-icon.png"
 permalink: pretty
 
+paginate: 2
+paginate_path: /page:num/
+
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima-plex:
@@ -58,3 +61,4 @@ remote_theme: questionlp/minima-plex
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-paginate

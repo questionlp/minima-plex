@@ -311,20 +311,28 @@
   margin-bottom: $spacing-unit;
   @extend .social-media-list;
   li {
-    a, div {
+    a {
+      border: none;
+      padding: 0;
+    }
+    /*a, div {
       min-width: 41px;
       text-align: center;
       box-sizing: border-box;
-    }
+    }*/
     div {
+      min-width: 41px;
+      font-size: 110%;
       display: block;
       padding: calc($spacing-unit / 4);
-      border: 1px solid transparent;
+      border: 1px solid $border-color-01;
+      text-align: center;
+      box-sizing: border-box;
 
-      &.pager-edge {
-        color: $border-color-01;
-        border: 1px dashed;
-      }
+      //&.pager-edge {
+      //  color: $border-color-01;
+      //  border: 1px dashed;
+      //}
     }
   }
 }
