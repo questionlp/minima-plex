@@ -148,7 +148,7 @@
 }
 
 .footer-col {
-  margin-bottom: calc($spacing-unit * 0.5);
+  margin-bottom: $spacing-unit * 0.5;
 }
 
 .footer-col-1,
@@ -315,11 +315,7 @@
       border: none;
       padding: 0;
     }
-    /*a, div {
-      min-width: 41px;
-      text-align: center;
-      box-sizing: border-box;
-    }*/
+
     div {
       min-width: 41px;
       font-size: 110%;
@@ -328,11 +324,6 @@
       border: 1px solid $border-color-01;
       text-align: center;
       box-sizing: border-box;
-
-      //&.pager-edge {
-      //  color: $border-color-01;
-      //  border: 1px dashed;
-      //}
     }
   }
 }
