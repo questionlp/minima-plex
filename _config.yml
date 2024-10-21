@@ -59,6 +59,17 @@ minima-plex:
 remote_theme: questionlp/minima-plex
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
- - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "*.gem"
+  - "*.gemspec"
